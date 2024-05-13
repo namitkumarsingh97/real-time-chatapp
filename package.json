@@ -1,0 +1,25 @@
+{
+  "name": "chatapp-backend",
+  "version": "1.0.0",
+  "description": "building a chat-app using socket.io",
+  "main": "src/app.js",
+  "module": "CommonJS",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Namit Kumar Singh",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "hbs": "^4.2.0",
+    "socket.io": "^4.7.5",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.8",
+    "utf-8-validate": "^5.0.10"
+  }
+}
